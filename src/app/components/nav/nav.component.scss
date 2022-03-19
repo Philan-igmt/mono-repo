@@ -1,0 +1,38 @@
+.navigation {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+  z-index: 1;
+  .left {
+    width: 50%;
+    margin-left: 5%;
+  }
+  .logo {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    margin: 2%;
+  }
+  .links {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    .link-item {
+      color: white;
+      text-decoration: none;
+    }
+    .link-item:hover {
+      color: rgb(254, 226, 97);
+    }
+  }
+}
+.nav {
+  position: fixed;
+}

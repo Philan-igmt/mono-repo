@@ -1,0 +1,21 @@
+.counters {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to right, #6434fe, #af1cf7);
+  .counter {
+    width: 200px;
+    margin: auto;
+    color: white;
+    .numbers {
+      font-size: 50px;
+      font-weight: 900;
+      text-align: center;
+    }
+    .project {
+      text-align: center;
+    }
+  }
+}

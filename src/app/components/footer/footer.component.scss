@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 40vh;
+  //   padding: 5%;
+  align-items: center;
+  margin: 0;
+  justify-content: space-evenly;
+  .footer-heading1,
+  .footer-heading2,
+  .footer-heading3 {
+    font-size: 20px;
+  }
+  .left,
+  .center,
+  .right {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-list {
+    .contact-list {
+      list-style-type: none;
+      margin-left: -10%;
+      .detail {
+        margin-left: 5%;
+      }
+    }
+  }
+}

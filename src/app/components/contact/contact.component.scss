@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  margin-top: 3%;
+  .details,
+  .map-iframe {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    justify-content: center;
+    padding: 5%;
+  }
+  .details {
+    .contacts-heading {
+      font-size: 50px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      text-align: left;
+    }
+    .contact-par {
+      margin-left: 1%;
+      font-family: "Poppins", sans-serif;
+    }
+    .form {
+      width: 100%;
+    }
+  }
+}
